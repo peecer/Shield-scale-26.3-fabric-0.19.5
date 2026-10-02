@@ -1,0 +1,19 @@
+{
+  "custom_shield_scale.title": "Custom Shield Scale",
+  "custom_shield_scale.category.self": "Your Shield",
+  "custom_shield_scale.category.others": "Other Players",
+  "custom_shield_scale.enabled": "Enable shield transforms",
+  "custom_shield_scale.enabled.description": "Apply custom scale and position settings to rendered shields.",
+  "custom_shield_scale.self_scale": "Scale",
+  "custom_shield_scale.self_scale.description": "Scale of shields rendered for you.",
+  "custom_shield_scale.self_offset_x": "Horizontal offset",
+  "custom_shield_scale.self_offset_x.description": "Move your shield left or right.",
+  "custom_shield_scale.self_offset_y": "Vertical offset",
+  "custom_shield_scale.self_offset_y.description": "Move your shield up or down.",
+  "custom_shield_scale.others_scale": "Scale",
+  "custom_shield_scale.others_scale.description": "Scale of shields rendered on other players.",
+  "custom_shield_scale.others_offset_x": "Horizontal offset",
+  "custom_shield_scale.others_offset_x.description": "Move other players' shields left or right.",
+  "custom_shield_scale.others_offset_y": "Vertical offset",
+  "custom_shield_scale.others_offset_y.description": "Move other players' shields up or down."
+}

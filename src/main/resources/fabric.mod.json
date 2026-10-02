@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_shield_scale",
+  "version": "${version}",
+  "name": "Custom Shield Scale",
+  "description": "Client-side shield scale and position controls for Minecraft 26.3.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.peecer.shieldscale.CustomShieldScaleClient"
+    ],
+    "modmenu": [
+      "dev.peecer.shieldscale.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "custom_shield_scale.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.9.7"
+  },
+  "suggests": {
+    "modmenu": ">=21.0.0"
+  }
+}

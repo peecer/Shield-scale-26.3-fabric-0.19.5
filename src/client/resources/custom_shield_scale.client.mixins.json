@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.peecer.shieldscale.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "FirstPersonHandsAndItemsRendererMixin",
+    "ItemInHandLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
